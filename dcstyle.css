@@ -1,0 +1,194 @@
+* {
+margin: 0;
+padding: 0;
+font-family: sans-serif;	
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(work2.jpg);
+	height: 20%;
+	background-size: cover;
+	background-position: center;
+}
+
+ul { 		
+list-style-type: none;
+margin-top: 25px;
+}
+
+ul li {
+display: inline-block;
+margin-top: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.clearfix::after {
+	content: '';
+	display: table;	
+	clear: both;
+}
+
+.logo {
+	float: left;		
+}
+
+.logo img{
+	margin-left: 60px;		
+	width: 150px;
+	height: auto;
+	margin-top: 0px;
+}
+
+.menu {
+	float: right;
+	margin-right: 100px;	
+}
+
+.main {
+	max-width: 1200px;
+	margin: 0 	auto;
+}
+
+form li {
+	list-style: none;
+	margin-bottom: -9px;
+}
+
+form ul {
+	padding-left: 0;
+	text-align: center;
+	margin-top: 0px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+	color: #292929;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+}
+
+textarea {
+	width: 250px;
+	height: 180px;
+	font-size: 18px;
+}
+
+form {
+	float: left;
+	margin-top: 20px;
+    background-color: #e3e3e3;
+    height: 520px;
+    width: 360px;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#touch {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px
+}
+
+#go {
+	width: 100px;
+	height: 30px;
+}
+
+#name {
+	height: 40px;
+	width: 250px;
+	font-size: 18px;
+}
+
+#E-mail {
+	height: 40px;
+	width: 250px;
+	font-size: 18px;
+}
+
+.media {
+	margin-top: 110px;
+	float: right;
+	margin-right: 21%;
+}
+
+#mail {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 20%;
+}
+
+#socmedia {
+	float: right;
+}
+
+.endnote {
+	margin-top: 20%;
+	position: absolute;
+	background-color: #0a0a0a;
+	width: 100%;
+}
+
+#endn {
+	margin-top: 0px;
+	font-family: arial;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+
+		#dialogoverlay {
+			display: none;
+			opacity: .8;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			background: #fff;
+			width: 100%;
+			z-index: 10;
+		}
+
+		#dialogbox {
+			display: none;
+			position: fixed;
+			background: #000;
+			border-radius: 7px;
+			width: 550px;
+			z-index: 10;
+		}
+
+		#dialogbox > div { background: #fff; margin: 8px; }
+		#dialogbox > div > #dialogboxhead { background: #666; font-size: 19px; padding: 10px; color: #ccc; }
+		#dialogbox > div > #dialogboxbody { background: #333; padding: 20px; color: #fff; }
+		#dialogbox > div > #dialogboxfoot { background: #666; padding: 10px; text-align: right; }
